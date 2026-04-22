@@ -1,0 +1,15 @@
+[project]
+name = "selenium-with-pytest"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "pytest>=9.0.3",
+    "pytest-html>=4.2.0",
+    "pytest-metadata>=3.1.1",
+    "pytest-xdist>=3.8.0",
+    "python-dotenv>=1.2.2",
+    "ruff>=0.15.11",
+    "selenium>=4.43.0",
+]
